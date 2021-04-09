@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthBarTimer : Timer
 {	
@@ -79,7 +80,12 @@ public class HealthBarTimer : Timer
 		this.AdjustColor("Red");
 	}
 
-	void AdjustColor(string direction)
+    public override void LoadScene()
+    {
+		SceneManager.LoadScene("GameOver");
+	}
+
+    void AdjustColor(string direction)
 	{
 		// if direction is "Green"
 		// if bar is over halfway full

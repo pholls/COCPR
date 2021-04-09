@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AmbulanceTimer : Timer
 {
@@ -12,6 +13,7 @@ public class AmbulanceTimer : Timer
     {
         endColor = Color.green;
     }
+
     public override void IncrementTimer()
     {
         transform.position -= transform.right * travelSpeed * Time.deltaTime;
@@ -22,4 +24,8 @@ public class AmbulanceTimer : Timer
         transform.position += transform.right;
     }
 
+    public override void LoadScene()
+    {
+        SceneManager.LoadScene("EMSMode");
+    }
 }
