@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91367b42fdf024bea94e5869c72c6c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moving: 1
+  moving: 0
   travelSpeed: 10
   endColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!50 &628610222
@@ -2178,8 +2178,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838416748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.643627, y: 3.2415333, z: 0}
-  m_LocalScale: {x: 0.3566, y: 1, z: 1}
+  m_LocalPosition: {x: 4.555, y: 3.2415333, z: 0}
+  m_LocalScale: {x: 0.5337588, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
