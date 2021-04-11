@@ -59,10 +59,14 @@
     <Compile Include="Assets/AmbulanceTimer.cs" />
     <Compile Include="Assets/Timer.cs" />
     <Compile Include="Assets/ChangeColor.cs" />
+    <Compile Include="Assets/SceneSwitcher.cs" />
     <Compile Include="Assets/GlobalControl.cs" />
     <Compile Include="Assets/TriggerCollider.cs" />
     <Compile Include="Assets/HealthBarTimer.cs" />
     <Compile Include="Assets/FadeToRedScript.cs" />
+    <Compile Include="Assets/SpriteDetector.cs" />
+    <Compile Include="Assets/TouchInput.cs" />
+    <Compile Include="Assets/OnTouchDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

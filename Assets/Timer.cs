@@ -20,13 +20,16 @@ public class Timer : MonoBehaviour
     public void StopMoving()
     {
         moving = false;
-        Debug.Log("transform.position: " + transform.position);
-        Debug.Log("transform.localScale: " + transform.localScale);
+        //Debug.Log("transform.position: " + transform.position);
+        //Debug.Log("transform.localScale: " + transform.localScale);
+        this.LoadScene();
     }
 
     public virtual void IncrementTimer()
     { }
     public virtual void AddTime()
+    { }
+    public virtual void LoadScene()
     { }
 
 }

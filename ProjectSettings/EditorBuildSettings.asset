@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/CPRMode.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/EMSMode.unity
+    guid: dc506aa1874c04d7cab2bec0e18ed2b5
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 99e4b2a4159c3478f9911b18e8678239
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 57ac79973b22c48c9a2d690deebacb17
   m_configObjects: {}
