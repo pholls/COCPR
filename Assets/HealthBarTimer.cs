@@ -62,10 +62,10 @@ public class HealthBarTimer : Timer
 		StartCoroutine("FadeToRed");
 	}
 
-	public override void AddTime()
+	public override void AddTime(float time)
 	{
-		transform.position += transform.right;
-		transform.localScale += transform.right;
+		transform.position += transform.right * travelSpeed * 0.5f * time;
+		transform.localScale += transform.right * travelSpeed * time;
 		AdjustColor("Green");
 	}
 

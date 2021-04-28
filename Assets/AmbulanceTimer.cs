@@ -19,11 +19,6 @@ public class AmbulanceTimer : Timer
         transform.position -= transform.right * travelSpeed * Time.deltaTime;
     }
 
-    public override void AddTime()
-    {
-        transform.position += transform.right;
-    }
-
     public override void LoadScene()
     {
         SceneManager.LoadScene("EMSMode");
