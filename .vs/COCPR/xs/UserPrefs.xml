@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SpriteDetector.cs">
     <Files>
       <File FileName="Assets/TriggerCollider.cs" Line="1" Column="1" />
-      <File FileName="Assets/SpriteDetector.cs" Line="51" Column="14" />
+      <File FileName="Assets/SpriteDetector.cs" Line="66" Column="6" />
       <File FileName="Assets/AmbulanceTimer.cs" />
       <File FileName="Assets/HealthBarTimer.cs" />
       <File FileName="Assets/GlobalControl.cs" />
@@ -12,7 +12,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4aa793b-bdf6-43e5-b67b-989788bb59bd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a4627e09-0950-4be9-bd39-1ec21030d8d2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
